@@ -1,0 +1,17 @@
+{
+  "name": "mini-social-express",
+  "version": "1.0.0",
+  "description": "Mini social media app with user profiles, posts, comments, likes, and follow system using Express and SQLite.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "sqlite3": "^5.1.7"
+  }
+}
